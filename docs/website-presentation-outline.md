@@ -22,7 +22,6 @@
 - Theme toggle (light/dark mode persistence).
 - Animated ambient background and reveal effects.
 - Footer with support link.
-- Live support widget integration (Tawk chat).
 
 ## 5. Page-by-Page Outline
 

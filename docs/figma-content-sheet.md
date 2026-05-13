@@ -24,10 +24,6 @@ Footer:
 - `© 2026 AkamaiPOS. Built for modern point-of-sale operations.`
 - `Contact Support`
 
-Floating chat label:
-
-- `Live Chat`
-
 ## Home Page
 
 ### Hero
@@ -278,5 +274,4 @@ Message placeholder:
 ## External Interaction Notes
 
 - Theme toggle swaps between light and dark color systems.
-- Live chat opens a Tawk widget overlay.
 - Contact submit opens the user's mail client with a prefilled email to `support@akamaipos.com`.

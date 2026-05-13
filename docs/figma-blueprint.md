@@ -25,7 +25,6 @@ Shared site-level UI:
 - sticky header with brand, nav links, Book a Demo CTA, theme toggle, and mobile menu
 - ambient background with dot matrix wave, blobs, and grid overlay
 - shared footer with Contact Support link
-- live chat floating action button via Tawk widget
 - scroll reveal animation on section content
 
 ## Recommended Single Figma File Structure
@@ -195,7 +194,6 @@ Sections in order:
 14. CTA band with phone number
 15. Expert Support split section with monitor visual
 16. Footer
-17. Floating Live Chat button
 
 ### `Home / Desktop / Dark`
 
@@ -210,7 +208,6 @@ Sections in order:
 3. Six hardware showcase sections alternating image and text
 4. Footer CTA area with `Ask About Hardware Pricing`
 5. Footer
-6. Floating Live Chat button
 
 Hardware sample cards to include:
 
@@ -230,7 +227,6 @@ Sections in order:
 3. Supplier logo grid
 4. Coverage/support card with phone and CTA
 5. Footer
-6. Floating Live Chat button
 
 Use a logo wall layout with repeated supplier logo card components. Current data includes Oracle, NCR, Toshiba, Posiflex, POSX, Epson, Zebra, Honeywell, Verifone, Ingenico, and many more.
 
@@ -243,7 +239,6 @@ Sections in order:
 3. Contact info card for phone support
 4. Two-column contact form
 5. Footer
-6. Floating Live Chat button
 
 Form fields:
 
@@ -337,11 +332,6 @@ Wire these interactions in the `05 Prototype Flows` page.
 - theme toggle should move between light and dark companion frames on Home
 - in components, keep theme toggle as a two-state interactive component
 
-### Chat interactions
-
-- floating `Live Chat` FAB can open an overlay reference frame labelled `External Tawk Widget`
-- note that the production widget is third-party and not fully represented inside the React route tree
-
 ### Contact form interaction
 
 - button `Contact Our Team` -> `mailto:` handoff note frame
@@ -372,7 +362,6 @@ Wire these interactions in the `05 Prototype Flows` page.
 - pills and chips
 - cards
 - form fields
-- chat FAB
 - decorative modules
 
 ### `03 Desktop Screens`
@@ -391,7 +380,7 @@ Wire these interactions in the `05 Prototype Flows` page.
 - Hardware light
 - Suppliers light
 - Contact light
-- mobile nav and chat states
+- mobile nav states
 
 ### `05 Prototype Flows`
 
@@ -404,7 +393,7 @@ Wire these interactions in the `05 Prototype Flows` page.
 
 - page purpose notes
 - implementation notes
-- external dependency notes for Tawk chat and mailto behavior
+- external dependency notes for mailto behavior
 
 ## Build Order In Figma
 

@@ -31,7 +31,6 @@ Use this as the build checklist inside one Figma file. Each item below should be
 - Header mobile closed dark
 - Header mobile open dark
 - Footer
-- Floating live chat button
 
 ### Navigation
 
@@ -106,7 +105,6 @@ Use this as the build checklist inside one Figma file. Each item below should be
 - Add orange CTA band with phone number.
 - Add expert support split section.
 - Add footer.
-- Add floating live chat button.
 
 ## `Home / Desktop / Dark`
 
@@ -121,7 +119,6 @@ Use this as the build checklist inside one Figma file. Each item below should be
 - Add six alternating product sections.
 - Add bottom CTA `Ask About Hardware Pricing`.
 - Add footer.
-- Add floating live chat button.
 
 Product section list:
 
@@ -139,7 +136,6 @@ Product section list:
 - Add supplier logo wall.
 - Add coverage/support CTA card.
 - Add footer.
-- Add floating live chat button.
 
 ## `Contact / Desktop / Light`
 
@@ -149,7 +145,6 @@ Product section list:
 - Add two-column form.
 - Add submit button.
 - Add footer.
-- Add floating live chat button.
 
 ## Mobile Screens
 
@@ -160,7 +155,6 @@ Product section list:
 - Keep both hero CTAs full width or near full width.
 - Wrap ticker pills into multiple rows.
 - Stack CTA band content.
-- Keep live chat button anchored above the footer zone.
 
 ## `Home / Mobile / Dark`
 
@@ -214,11 +208,9 @@ Product section list:
 - Mark phone actions as external `tel:+18088438000`.
 - Mark contact submit as external `mailto:` handoff.
 - Link theme toggle between Home light and Home dark reference frames.
-- Link live chat button to a note frame labelled `External Tawk Widget`.
 
 ## Handoff Notes Checklist
 
-- Note that the floating chat is powered by Tawk and opens outside the page flow.
 - Note that the contact form opens the user's default mail app instead of showing an internal thank-you page.
 - Note that product imagery on the Hardware page is placeholder-based in the current implementation.
 - Note that Home is the primary storytelling page and contains most of the reusable visual language.

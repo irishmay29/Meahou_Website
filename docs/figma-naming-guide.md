@@ -359,7 +359,6 @@ When naming interaction notes or flow connectors in labels, use:
 - `Link / Contact`
 - `Link / External Phone`
 - `Link / External Mailto`
-- `Link / External Tawk Widget`
 - `Link / Theme Dark`
 - `Link / Theme Light`
 

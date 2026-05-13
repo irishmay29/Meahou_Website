@@ -17,7 +17,7 @@ You are building one Figma file named `AkamaiPOS Website Prototype` that contain
 - mobile screens
 - reusable components
 - prototype links between pages
-- notes for external behaviors like live chat and email handoff
+- notes for external behaviors like email handoff
 
 ## Before You Start
 
@@ -135,7 +135,6 @@ Follow this exact build order:
 15. Add the orange CTA band.
 16. Add the expert support section.
 17. Add the footer.
-18. Add the floating live chat button.
 
 Use:
 
@@ -263,7 +262,6 @@ Instead:
 
 - annotate phone links as external `tel:` actions
 - annotate contact submit as external `mailto:` behavior
-- annotate live chat as external `Tawk Widget`
 
 ## Step 10: Add Notes And Handoff Information
 
@@ -277,9 +275,8 @@ Go to `06 Notes and Handoff` and add frames for:
 
 Document these three things clearly:
 
-1. The live chat uses Tawk, not a custom page-level modal.
-2. The contact form opens the user's mail app with a prefilled message.
-3. The hardware images are placeholders in the current implementation.
+1. The contact form opens the user's mail app with a prefilled message.
+2. The hardware images are placeholders in the current implementation.
 
 ## Fastest Build Path
 
@@ -308,8 +305,7 @@ Before calling the file done, check these:
 4. Buttons and forms are component-based, not one-off layers.
 5. Theme toggle behavior is shown.
 6. Contact submission is annotated as `mailto:`.
-7. Live chat is annotated as external Tawk behavior.
-8. Desktop and mobile versions both exist.
+7. Desktop and mobile versions both exist.
 
 ## Practical Tips
 

@@ -5,12 +5,11 @@ This workspace now includes a MERN foundation for the AkamaiPOS website with:
 - React frontend (Vite)
 - Node + Express backend
 - MongoDB persistence via Mongoose (with in-memory fallback)
-- Real-time support chat using Socket.IO
 - Accessibility baseline (skip link, focus states, ARIA/live regions, reduced motion support)
 
 ## Project Structure
 
-- `client/` React app and support chat widget UI
+- `client/` React app
 - `server/` Express API + Socket.IO server
 - `package.json` root scripts for running both apps together
 
@@ -26,13 +25,29 @@ This workspace now includes a MERN foundation for the AkamaiPOS website with:
 3. Start both apps:
    - `npm run dev`
 
+## GitHub Pages
+
+The React app in `client/` is configured for GitHub Pages:
+
+- routing uses hash-based URLs so page refreshes work on Pages
+- Vite builds with relative asset paths
+- GitHub Actions deployment is defined in `.github/workflows/deploy-pages.yml`
+
+To publish it:
+
+1. Push this repository to GitHub.
+2. In the repository settings, open **Pages**.
+3. Set the source to **GitHub Actions**.
+4. Push to `main` to trigger the deployment workflow.
+
+The workflow builds `client/` and deploys `client/dist` to GitHub Pages.
+
 ## Endpoints
 
 - `GET /api/health`
-- `GET /api/messages`
 
 ## Next Up
 
 - Add authentication and role-based permissions
-- Persist users, tickets, and sessions
+- Persist users and sessions
 - Add automated accessibility tests with axe-core and Lighthouse

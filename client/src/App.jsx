@@ -4,7 +4,6 @@ import HomePage from './pages/HomePage';
 import HardwarePage from './pages/HardwarePage';
 import ContactPage from './pages/ContactPage';
 import SuppliersPage from './pages/SuppliersPage';
-import TawkWidget from './components/TawkWidget';
 import DotMatrixWave from './components/DotMatrixWave';
 
 export default function App() {
@@ -134,8 +133,6 @@ export default function App() {
           <Link to="/contact">Contact Support</Link>
         </div>
       </footer>
-
-      <TawkWidget />
     </>
   );
 }
